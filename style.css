@@ -10,11 +10,12 @@ body{
 
 .container{
     max-width: 1000px;
+    padding: 0 15px;
     margin: 0 auto;
 }
 
 h2{
-    margin: 60px 0 30px;
+    padding: 60px 0 30px;
 }
 
 li {
@@ -30,11 +31,11 @@ a{
 }
 
 header{
-    height: 85px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    background: #fff;
+    position: fixed;
+    width: 100%;
     padding: 0 15px;
+    border-bottom: 1px solid #5f6368;
 }
 
 header .logo {
@@ -70,6 +71,10 @@ header .list-navbar .selected > a{
 
 .selected {
     border-bottom: 2px solid #3367d6;
+}
+
+main{
+    padding-top: 130px;
 }
 
 main span{
